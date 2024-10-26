@@ -10,7 +10,7 @@ The **University Class Schedule and Notification System** is designed to facilit
 - **Roles:**
   - 👩‍🎓 **Student:** Can view class schedules, assignments, and notifications; update their profile.
   - 👨‍🏫 **Teacher:** Can select courses, create and manage notifications and assignments, and update their profile.
-  - 🛠️ **Admin (optional):** Can manage all users, roles, and oversee system functionalities.
+  - 🛠️ **CR (optional):** Take Attendance and create others operation and oversee system functionalities.
 
 ### Profile Management
 - **Teacher Profile:**
@@ -77,7 +77,7 @@ Contributions are welcome! If you have suggestions or improvements, please creat
 
 ## Deployment
 
-The project can be deployed on a cloud platform (e.g., Heroku, Render) for production use.
+The project  deployed on a cloud platform netlify.app
 
 ## Tech Stack
 - **Django:** Web framework for building the application.
