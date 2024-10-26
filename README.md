@@ -3,6 +3,7 @@
 ## Project Overview
 
 The **University Class Schedule and Notification System** is designed to facilitate the management of class schedules, assignments, and notifications within a university. This system enables teachers to create and manage course-related notifications and assignments while ensuring that students receive timely updates. Both teachers and students can update their profiles, with notifications sent via email and displayed on the home page.
+<p align="center"><img src="https://i.ibb.co.com/qMhcXzP/all-devices-black.png" alt="project-image"></p>
 
 ## Key Features
 
