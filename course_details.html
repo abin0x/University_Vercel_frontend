@@ -16,47 +16,29 @@
                 <span>+880 1780-946249</span>
                 <span>mahmudulabin@email.com</span>
             </div>
-            <div class="login-register" id="auth-links">
-                
+            <div class="login-register">
+                <a href="login.html">Login</a> |
+                <a href="register.html">Register</a>
             </div>
         </div>
         <nav class="navbar">
             <div class="logo">
-                <a href="index.html"><img src="./images/logo (3).png" alt=""></a>
-                <!-- <h1>GLAXDU</h1> -->
-
+                <a href="index.html"><img src="./images/logo (3).png" alt="Logo"></a>
             </div>
-            <div class="hamburger" id="hamburger-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-            <ul class="nav-links" id="nav-links">
+            <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <!-- <li><a id="logout-button" class="logout-button">Logout</a></li> -->
-                <!-- <button id="logout-button" class="logout-button">Logout</button> -->
-
-                <!-- <li><a href="#">Shop</a></li> -->
-                <li><a href="#courses">Course</a></li>
-                <li><a href="#team">Teacher</a></li>
-                <li><a href="#blogs">Blog</a></li>
-                <li><a href="#reacherss">Research </a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#">Blog</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li class="dropdown" id="profile-menu" style="display: none;">
+                <li class="dropdown">
                     <a href="#" id="contact-link">Profile</a>
                     <div id="dropdown-menu" class="dropdown-menu">
                         <a href="teacherDashboard.html">Teachers</a>
                         <a href="studentDashboard.html">Students</a>
-                        <a href="crDashboard.html">CR</a>
                     </div>
                 </li>
-                <!-- <li><a href="studentDashboard.html">Student</a></li> -->
-                
             </ul>
-            <!-- <div class="cart">
-                <a href="#"><span>02</span></a>
-            </div> -->
         </nav>
     </header>
 
@@ -112,12 +94,10 @@
                 <select id="department-filter">
                     <option value="">All Departments</option>
                     <option value="Artificial Intelligence">Artificial Intelligence</option>
-                    <option value="Mechanical Engineering">Mechanical Engineering</option>
+                    <option value="Art And Design">Art And Design</option>
                     <option value="Data Science">Data Science</option>
-                    <option value="Marketing">Marketing</option>
+                    <option value="Business Administration">Business Administration</option>
                     <option value="Computer Science">Computer Science</option>
-                    <option value="Design">UX/UI Design</option>
-                    <option value="Cybersecurity">Cybersecurity</option>
                 </select>
             </div>
 
@@ -169,15 +149,15 @@
     </footer>
 
     <!-- Modal Structure -->
-<div id="enrollment-modal" class="modal">
-    <div class="modal-content">
-        <span class="close">&times;</span>
-        <p id="modal-message"></p>
+    <div id="enrollment-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="modal-message"></p>
+        </div>
     </div>
-</div>
-
 
     <script defer src="course_details.js"></script>
+    <!-- <script defer src="course_details.js"></script> -->
     <script src="./auth.js"></script>
     <script src="./drop.js"></script>
 </body>

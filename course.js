@@ -27,6 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     <h3>${course.title}</h3>
                     <p>${description}</p>
                     <p>Department: ${course.department}</p>
+                    <p>Price: ${course.price}</p>
                     <p>Created: ${course.created_at}</p>
                     <button class="enroll-now" data-id="${course.id}">Enroll Now →</button>
                 </div>
